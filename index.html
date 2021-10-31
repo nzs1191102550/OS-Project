@@ -62,7 +62,7 @@
 
       if(algo==='1'){
           //rr goes here
-          const ans = RR(arrival_array, burst_array);
+          const ans = RR(arrival_array, burst_array, timeQuantum);
           console.log(ans);
       }
 
@@ -72,7 +72,7 @@
 
       if(algo==='3'){
           //preepmt sjf goes here
-          const ans = SRTF(arrival_array, burst_array, timeQuantum);
+          const ans = SRTF(arrival_array, burst_array);
           console.log(ans);
       }
     }
